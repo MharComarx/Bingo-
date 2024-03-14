@@ -1,6 +1,6 @@
 console.log("Hello World!");
 
-generateNumber (15);
+generateNumber (99);
 
 
 function generateNumber (max) {
@@ -19,10 +19,10 @@ function generateNumber (max) {
         console.log('The Number is in I');
     }  else if (randomNumber > 31 && randomNumber < 45) {
         console.log('The Number is in N.');
-    } else if ((randomNumber > 46 && randomNumber < 60) ) {
+    } else if ((randomNumber > 46 && randomNumber < 60)) {
         console.log('The Number is in G.');
 
-    } else if ((randomNumber > 61 && randomNumber < 99) ) {
+    } else if ((randomNumber > 61 && randomNumber < 99)) {
         console.log('The Number is in O.');
     } else {
         console.log('The Number is invalid!');
