@@ -17,8 +17,16 @@ function generateNumber (max) {
         console.log('The Number is in B.');
     } else if (randomNumber > 16 && randomNumber < 30) {
         console.log('The Number is in I');
-    }  else {
-        console.log('The Number is invalid.');
+    }  else if (randomNumber > 31 && randomNumber < 45) {
+        console.log('The Number is in N.');
+    } else if ((randomNumber > 46 && randomNumber < 60) ) {
+        console.log('The Number is in G.');
+
+    } else if ((randomNumber > 61 && randomNumber < 99) ) {
+        console.log('The Number is in O.');
+    } else {
+        console.log('The Number is invalid!');
     }
+
     return console.log(randomNumber);
 }
